@@ -11,7 +11,7 @@ This is a C# .NET 7 with AWS SDK EC2 (3.7.137.1) nuget for AWS EC2 instance star
     同時在連線EC2伺服器時會建立暫存一個一個客製的文字檔放在 %userprofile%\.aws\.cached 目錄
     下以 instance-id 命名副檔名為.json 的設定檔。
 
-    ![關機狀態](https://github.com/spectreConstantine/amazonWebServices.ec2.python/blob/master/2020-04-27_094454.png)
+    ![關機狀態](https://github.com/spectreConstantine/amazonWebServices.ec2.csharp.net/blob/master/2023-06-22_183918.png)
 
 
 - [x] --- 程式使用說明如下 ---
