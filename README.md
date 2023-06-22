@@ -6,7 +6,7 @@ This is a C# .NET 7 with AWS SDK EC2 (3.7.137.1) nuget for AWS EC2 instance star
 - [x] --- 繁體中文版 ---
 
     此程的功能為提供使用 Amazon Web Service (AWS) 的 EC2 服務的使用者一個簡便的使用者界面
-    能夠將每台EC2 Instance(虛擬機器)用Instance ID做成設定檔在使用時可以快速方便地開或/關機
+    能夠快速方便地開或/關機 EC2 Instance 執行個體 (虛擬機器)。
     附註: 此程式會使用 AWS CLI 的 AWS Configure 好的 default Profile 來載入使用者權限。
     同時在連線EC2伺服器時會建立暫存一個一個客製的文字檔放在 %userprofile%\.aws\.cached 目錄
     下以 instance-id 命名副檔名為.json 的設定檔。
