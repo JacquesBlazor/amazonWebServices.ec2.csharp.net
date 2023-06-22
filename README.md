@@ -30,6 +30,8 @@ This is a C# .NET 7 with AWS SDK EC2 (3.7.137.1) nuget for AWS EC2 instance star
 
 - [x] --- 其他說明 ---
         
+    * 此程式為前一個 Python 版本的改版。為的是可以直接執行。附上可執行檔的 .rar 壓縮。但需要 .net runtime 7.0 以上。
+    * 可以自行使用 .net sdk 重新編譯成自帶 .net 的 runtime。例如: dotnet publish -c Release -r win10-x64 --self-contained /p:PublishSingleFile=true
     * 目前的下拉選單會列出本機上所有的 AWS Configure 的設定檔名稱。但改變選單並沒有作用。原定功能為可以切換設定檔。但尚未開發此部份。
     * 其他下拉選單亦同。有關地區或該 Instance 執行個體的網路卡如果超過一張會列出多張卡。改變選單亦無作用。
 
