@@ -23,7 +23,7 @@ This is a C# .NET 7 WinForm app with AWS SDK EC2 (3.7.137.1) nuget package for A
 
 - [x] --- 程式使用說明如下 ---
         
-    * 要用aws cli設定 AWS Configure, 這樣會在 %userprofile%/.aws/產生 credentials 這個檔案。
+    * 要用 [AWS CLI](https://docs.aws.amazon.com/zh_tw/cli/latest/userguide/getting-started-install.html) 設定 AWS Configure, 這樣會在 %userprofile%/.aws/產生 credentials 這個檔案。
       * [profile name]
       * aws_access_key_id = AKcccccccxxxxxxxx4I
       * aws_secret_access_key = nxxx88xxxxxxud2KAxm
@@ -39,11 +39,12 @@ This is a C# .NET 7 WinForm app with AWS SDK EC2 (3.7.137.1) nuget package for A
     * 在 .NET 平台的 .NET SDK下載位址為 [這裡](https://download.visualstudio.microsoft.com/download/pr/2ab1aa68-3e14-401a-b106-833d66fa992b/060457e640f4095acf4723c4593314b6/dotnet-sdk-7.0.304-win-x64.exe)。.NET 平台的 .NET runtime下載位址為 [這裡](https://download.visualstudio.microsoft.com/download/pr/ce1d21d9-d3fb-451f-84b1-95f365bcbc2c/23748d17eed2e1c63fdbb6b29d147c2d/dotnet-runtime-7.0.7-win-x64.exe)。所有相關的下載列表在 [這裡](https://dotnet.microsoft.com/en-us/download/dotnet/7.0)。
 
 - [x] --- English Version ---
+
     This program provides a user-friendly interface for users of Amazon Web Service (AWS) EC2 service.
     It allows users to quickly and conveniently start or stop EC2 instances (virtual machines) and
     open a cmd prompt for SSH connections. The program loads user permissions using the "default"
-    configuration file name mentioned in the usage instructions below, which is preconfigured using
-    the AWS Configure command through AWS CLI.
+    configuration file name mentioned in the Program usage instructions below, which is preconfigured
+    using the AWS Configure command through AWS CLI.
 
     Note: When clicking the "Connect to Server" button for the first time, it will prompt for the
     private key (.pem) certificate for connecting to the EC2 server. At the same time, a folder will be
@@ -54,6 +55,8 @@ This is a C# .NET 7 WinForm app with AWS SDK EC2 (3.7.137.1) nuget package for A
     certificate. The Account field can also be set. If not set, it will use "ec2-user" to connect to the server.
     Therefore, the next time the "Connect to Server" button is clicked, it will use the previous configuration.
     If the configuration is incorrect, this file can be deleted, and the program will rebuild it.
+
+- [x] --- Program Usage Instructions ---
 
     * To configure AWS using the AWS CLI, it will generate a file called "credentials" in the %userprofile%/.aws/ directory.
        * [profile name]
