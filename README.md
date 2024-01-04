@@ -18,7 +18,7 @@ This is a C# .NET 7 WinForm app with AWS SDK EC2 (3.7.137.1) nuget package for A
     憑證路徑記錄在檔案裡。同時也可以設定 Account 欄位。如果沒有設定會使用 ec2-user 連線伺服器。因此
     下次再點選連線伺服器按鈕的時候就會以先前的設定為設定。如果設定錯誤，此檔案可以刪除。程式會再重建。
 
-    ![開機狀態](https://github.com/JacquesBlazor/amazonWebServices.ec2.csharp.net/blob/main/2023-06-24_013837.png)
+    ![開機狀態](https://github.com/JacquesBlazor/amazonWebServices.ec2.csharp.net/blob/main/2024-01-04_144729.png)
 
 
 - [x] --- 程式使用說明如下 ---
